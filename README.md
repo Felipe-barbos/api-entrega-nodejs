@@ -84,9 +84,11 @@ Rota: ```localhost:8888/delivery```
 
 Com o método POST, o cliente poderá solicitar uma entrega,com o ```token Bearer``` (token de authenticação) enviado no header da requisição poderá ser adicionado os seguintes parâmetros  no request body:
 
+```js
 {
 	"item_name": "Hamburguer de Siri"
 }
+```
 
 #### Listando as entregas do cliente:
 
