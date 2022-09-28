@@ -47,10 +47,12 @@ Rota: ```localhost:8888/deliveryman```
 Com o método POST, o deliveryman deverá ser criado pelo corpo da requisição com os seguintes parâmetros no request body:
 
 ```js
+
 {
 "username": "marcos",
 "password": "batatinha123"
 }
+
 ```
 
 Não será possível criar um deliveryman, caso o username já tenha sido cadastrado.
