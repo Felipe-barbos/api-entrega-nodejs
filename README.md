@@ -47,7 +47,6 @@ Rota: ```localhost:8888/deliveryman```
 Com o método POST, o deliveryman deverá ser criado pelo corpo da requisição com os seguintes parâmetros no request body:
 
 ```js
-
 {
 "username": "marcos",
 "password": "batatinha123"
@@ -77,8 +76,10 @@ Rota: ```localhost:8888/deliveryman/authenticate```
 Com o método POST, o deliveryman poderá efetuar o login(authenticar) gerando um token authenticação, enviando os seguintes parâmetros no request body:
 
 ```js
+{
 "username": "marcos"
 "password": "batatinha123"
+}
 ```
 
 
