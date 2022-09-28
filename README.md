@@ -62,8 +62,10 @@ Rota: ```localhost:8888/client/authenticate```
 Com o método POST, o client poderá efetuar o login(authenticar) gerando um token authenticação, enviando os seguintes parâmetros no request body:
 
 ```js
+{
 "username": "feunari"
 "password": "batatinha123"
+}
 ```
 
 #### Authenticando o usuário deliveryman:
