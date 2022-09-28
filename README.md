@@ -18,6 +18,8 @@ Para executar a API, deverá seguir os seguintes passos.
 
 #### 3. Subindo o container(docker) do banco de dados OBS: Para subir o container o mesmo deverá ter o docker instalado e configurado na máquina, caso o contrário utilizar outras ferramentas para subir o banco de dados instituido.
 
+```docker-compose up```
+
 #### 4. Rodando o servidor
 
 ```yarn dev```
